@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/light.svg">
-      <img alt="Logo" src="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/logo-dark.svg" width="360" height="108" style="max-width: 100%;">
+      <img alt="Logo" src="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/light.svg" width="360" height="108" style="max-width: 100%;">
     </picture>
   </a>
 </p>

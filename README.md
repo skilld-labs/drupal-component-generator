@@ -11,8 +11,6 @@
   This is a sub-package of <a href="https://www.npmjs.com/package/@skilld/drupal-theme-generator">Drupal theme generator</a> and it will help you to generate theme component.
 </p>
 
-------
-
 #### Navigation
 - [Installation](#installation)
 - [Files structure](#files-structure)

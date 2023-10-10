@@ -1,6 +1,13 @@
-# Drupal component generator
-
-This is a sub-package of [Drupal theme generator](https://www.npmjs.com/package/@skilld/drupal-theme-generator) and it will help you to generate theme component.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/logo-light.svg">
+    <img alt="Tailwind CSS" src="https://raw.githubusercontent.com/skilld-labs/drupal-component-generator/logo/logo-dark.svg" width="360" height="108" style="max-width: 100%;">
+  </picture>
+</p>
+<p align="center">
+  This is a sub-package of <a href="https://www.npmjs.com/package/@skilld/drupal-theme-generator">Drupal theme generator</a> and it will help you to generate theme component.
+</p>
 
 #### Navigation
 - [Installation](#installation)

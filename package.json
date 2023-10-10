@@ -1,0 +1,46 @@
+{
+  "name": "@skilld/drupal-component-generator",
+  "version": "0.0.1-alpha.0",
+  "description": "Drupal component generator",
+  "keywords": [
+    "Skilld",
+    "skilld",
+    "Drupal",
+    "drupal",
+    "drupal.org",
+    "component",
+    "components",
+    "theme-generator",
+    "theme generator",
+    "component-generator",
+    "component generator",
+    "drupal-theme",
+    "drupal theme",
+    "drupal-component",
+    "drupal component",
+    "drupal-integration",
+    "drupal integration",
+    "drupal theme generator",
+    "drupal component generator",
+    "drupal frontend",
+    "frontend",
+    "storybook"
+  ],
+  "bin": "index.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skilld-labs/drupal-component-generator.git",
+    "directory": "scripts/component-generator"
+  },
+  "author": "Skilld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skilld-labs/drupal-component-generator/issues"
+  },
+  "homepage": "https://github.com/skilld-labs/drupal-component-generator#readme",
+  "dependencies": {
+    "glob": "^10.3.3",
+    "hygen": "^6.2.11"
+  }
+}

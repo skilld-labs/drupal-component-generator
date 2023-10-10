@@ -1,9 +1,8 @@
-# [ECOSYSTEM_NAME] Component generator
+# Drupal component generator by [Skilld](https://www.skilld.cloud/)
 
-This is a part of [ECOSYSTEM_NAME](some_link) initiative and this package will help you to generate component.
+This is a sub-package of [Drupal theme generator](https://www.npmjs.com/package/@skilld/drupal-theme-generator) and it will help you to generate theme component.
 
 #### Navigation
-- [About component generator](#about-component-generator)
 - [Installation](#installation)
 - [Files structure](#files-structure)
 - - [css](#css)
@@ -12,14 +11,6 @@ This is a part of [ECOSYSTEM_NAME](some_link) initiative and this package will h
 - - [stories.js](#storiesjs)
 - - [yml](#yml)
 - [License](#license)
-
-## About component generator
-
-This is a sub-package of [ECOSYSTEM_NAME theme generator](https://www.npmjs.com/package/@skilld/kaizer-theme-generator). It's not
-recommended to use this package without Drupal theme, generated with our theme generator.
-
-To not waste the time on creation of components manually - this package can save you hours, since it's providing already several
-required files with some pre-defined "template" content inside.
 
 ## Installation
 
@@ -41,7 +32,7 @@ For writing styles of your component - you have to use `*.src.css` filename. Put
 will be compiled into `*.css` file <- use this compiled file in Drupal.
 
 It's recommended to use [BEM methodology](https://getbem.com/naming/) of writing styles. Also you can use drupal's breakpoints in CSS,
-see [here](https://www.npmjs.com/package/@skilld/kaizer-theme-generator#drupals-breakpoints-in-css-and-js) how to do that.
+see [here](https://www.npmjs.com/package/@skilld/drupal-theme-generator#drupals-breakpoints-in-css-and-js) how to do that.
 
 If you need images in CSS - put them into `your-component-name/images` folder and call normally from CSS like this for example:
 
@@ -56,7 +47,7 @@ according to Drupal specification. Behaviors are working in Storybook. There is 
 
 Behavior name is unique and will never have collisions with other behaviors. It consist of:
 
-`behaviors.[ThemeNameInCameCase][AtomicType][NameOfComponent]`
+`behaviors.[ThemeName][AtomicType][NameOfComponent]`
 
 ### twig
 
@@ -134,7 +125,7 @@ And another important thing is a one or two more lines describing type of integr
 - `hook theme`
 - `base hook`
 
-Read [here](some_link) about our integration to understand.
+Read [here](https://www.drupal.org/project/component_connector) about our integration to understand.
 
 ## License
 

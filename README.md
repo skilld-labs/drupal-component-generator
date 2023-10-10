@@ -1,4 +1,4 @@
-# Drupal component generator by [Skilld](https://www.skilld.cloud/)
+# Drupal component generator
 
 This is a sub-package of [Drupal theme generator](https://www.npmjs.com/package/@skilld/drupal-theme-generator) and it will help you to generate theme component.
 
